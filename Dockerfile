@@ -1,4 +1,4 @@
-FROM java:8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 COPY ./target/spring-boot-docker-app.jar /usr/app/
 
